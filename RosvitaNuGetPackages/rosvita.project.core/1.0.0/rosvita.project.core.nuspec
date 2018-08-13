@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Rosvita.Project.Core</id>
+    <version>1.0.0</version>
+    <authors>Rosvita.Project.Core</authors>
+    <owners>Rosvita.Project.Core</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Rosvita.Parsers.Launch" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Rosvita.Parsers.Urdf" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Rosvita.Parsers.Xacro" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Rosvita.Project.Contracts" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Document" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Robotics.Motoman" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Robotics.Types" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Abstractions" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Serialization.Primitives" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="YamlDotNet" version="5.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamla.Graph.Contracts</id>
+    <version>1.0.1</version>
+    <authors>Xamla.Graph.Contracts</authors>
+    <owners>Xamla.Graph.Contracts</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Xamla.Types" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Utilities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

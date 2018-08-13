@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Rosvita.Project.Contracts" Version="1.0.0" />
+    <PackageReference Include="Rosvita.RosMonitor" Version="1.0.1" />
+    <PackageReference Include="Uml.Robotics.Ros.MessageBase" Version="1.0.0" />
+    <PackageReference Include="Xamla.Graph.Contracts" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Rosvita.SampleDevice.xmodule">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

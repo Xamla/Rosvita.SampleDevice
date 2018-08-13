@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Rosvita.Parsers.Urdf</id>
+    <version>1.0.0</version>
+    <authors>Rosvita.Parsers.Urdf</authors>
+    <owners>Rosvita.Parsers.Urdf</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Xamla.Types" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Utilities" version="1.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

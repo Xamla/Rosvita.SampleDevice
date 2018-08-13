@@ -1,0 +1,10 @@
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\bin\Debug\netcoreapp2.1\Rosvita.SampleDevice.deps.json
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\bin\Debug\netcoreapp2.1\Rosvita.SampleDevice.dll
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\obj\Debug\netcoreapp2.1\Rosvita.SampleDevice.csproj.CoreCompileInputs.cache
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\obj\Debug\netcoreapp2.1\Rosvita.SampleDevice.AssemblyInfoInputs.cache
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\obj\Debug\netcoreapp2.1\Rosvita.SampleDevice.AssemblyInfo.cs
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\bin\Debug\netcoreapp2.1\Rosvita.SampleDevice.pdb
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\obj\Debug\netcoreapp2.1\Rosvita.SampleDevice.csprojAssemblyReference.cache
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\obj\Debug\netcoreapp2.1\Rosvita.SampleDevice.dll
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\obj\Debug\netcoreapp2.1\Rosvita.SampleDevice.pdb
+c:\temp\Rosvita.SampleDevice\Rosvita.SampleDevice\bin\Debug\netcoreapp2.1\Rosvita.SampleDevice.xmodule
