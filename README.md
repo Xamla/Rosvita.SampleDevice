@@ -2,7 +2,7 @@
 
 This sample shows the .NET Core parts of a fictive sensor device (a scale) for [Rosvita](http://www.rosvita.com/).
 The device has a configuration which is editable from inside Rosvita and generates a launch file and system
-monitoring configuration. Additonally it provides three simple modules (RequestWeight, Tare, Calibrate) for 
+monitoring configuration. Additionally it provides three simple modules (RequestWeight, Tare, Calibrate) for 
 the Rosvita Workflow editor which call custom ROS services.
 
 All required Xamla nuget packages are part of this repository and can be found in the
@@ -14,12 +14,12 @@ official Microsoft website for [download instructions](https://www.microsoft.com
 
 ### Use with Visual Studio Code
 Please install the C# extension ms-vscode.csharp. This makes sure you can use 'Go to definition' with 
-F12 and intelli-sense auto-completion is available.
+F12 and intelli-sense auto-completion is available. Explore the code by clicking `F12` or `CTLR + Left Click` everywhere. 
 
 ### Compilation on Linux
-1. Go to the directory that contains the file `Rosvita.SampleDevice.csproj` e.g. `cd Rosvita.SampleDevice/Rosvita.SampleDevice/Rosvita.SampleDevice`
-2. Run `dotnet build` (ignore warnings that stem from the `GetWeight.cs` file which was auto-generated with [ROS.net](https://github.com/xamla/ros.net))
-
+1. Clone the repository to your local machine: `git clone https://github.com/Xamla/Rosvita.SampleDevice.git`
+2. Go to the directory that contains the file `Rosvita.SampleDevice.csproj` e.g. `cd Rosvita.SampleDevice/Rosvita.SampleDevice/Rosvita.SampleDevice`
+3. Run `dotnet build` (ignore warnings that stem from the `GetWeight.cs` file which was auto-generated with [ROS.net](https://github.com/xamla/ros.net))
 
 
 ## Elements of a Device Integration
@@ -57,7 +57,7 @@ which allows to access all relevant parts fo the graph runtime. The most importa
 register all method modules at the module factory (see 
 [Initializer.cs#L16.](https://github.com/Xamla/Rosvita.SampleDevice/blob/master/Rosvita.SampleDevice/Rosvita.SampleDevice/Initializer.cs#L16.))
 Beside the module generation the initializer allows to set up static variables and register custom type converters and
-custom serializers if neccessary.
+custom serializers if neccessary. The initializer class is specified as a assembly level attribute via `[assembly: GraphRuntimeInitializer(typeof(Rosvita.SampleDevice.Initializer))]`.
 
 4. [Modules.cs](https://github.com/Xamla/Rosvita.SampleDevice/blob/master/Rosvita.SampleDevice/Rosvita.SampleDevice/Modules.cs):
 The actual workflow editor modules implementation can be found in the Modules.cs file. In this sample the simplest (and
@@ -68,6 +68,22 @@ The arguments of the method-module method become the input pins and the return v
 Pin-options (e.g. whether the pin should be shown on the module or in the property editor by default) can be specified via the `[InputPin]` attribute.
 
 
+## Configuration/Workflow Discovery of Custom Assemblies 
+
+The search process for custom components and workflow modules is separate for parts of the Rosvita project configuration 
+system and the workflow editor.
+
+### Auto-Discovery of Configuration Components
+
+TBD
+
+### Auto-Discovery of Workflow Editor Modules
+
+A Rosvita graph runtime process searches recursively during start-up for files with the ending `.xmodule` in the current working directory, the graph runtime host binary directory. When it finds empty `.xmodule` files it looks for an assembly with the 
+same same by `.module` replaced by `.dll` und tries to load it. If the assembly could be loaded it looks for the `GraphRuntimeInitializer` attribute to intantiate the specified initializer class and trigger the initialization.
+
+
+## Quick References
 
 ### ConfigurationGenerator
 
