@@ -34,7 +34,7 @@ namespace Rosvita.SampleDevice
             {
                 LaunchFileDocument launchFile = GenerateLaunchFile(device);
 
-                string launchFilename = $"satorius_telnet_{device.Name}.launch";
+                string launchFilename = $"sample_device_{device.Name}.launch";
                 string launchTempFilePath = Path.Combine(context.TempOutputDirecotry, launchFilename);
                 string launchFilePath = Path.Combine(context.FinalOutputDirecotry, launchFilename);
                 launchFile.Save(launchTempFilePath);
