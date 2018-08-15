@@ -7,6 +7,8 @@ using System.Runtime.InteropServices;
 using uint8 = System.Byte;
 using Uml.Robotics.Ros;
 
+#pragma warning disable CS0219 // Variable is assigned but its value is never used
+#pragma warning disable CS0168 // Variable is declared but never used
 
 using Messages.std_msgs;
 using String=System.String;
@@ -53,7 +55,7 @@ float64 weight"; }
 
             public Request()
             {
-                
+
             }
 
             public Request(byte[] serializedMessage)
@@ -66,17 +68,17 @@ float64 weight"; }
                 Deserialize(serializedMessage, ref currentIndex);
             }
 
-    
+
 
             public override void Deserialize(byte[] serializedMessage, ref int currentIndex)
             {
-                int arraylength=-1;
+                int arraylength = -1;
                 bool hasmetacomponents = false;
                 byte[] thischunk, scratch1, scratch2;
                 object __thing;
                 int piecesize=0;
                 IntPtr h;
-                
+
             }
 
             public override byte[] Serialize(bool partofsomethingelse)
@@ -88,7 +90,7 @@ float64 weight"; }
                 GCHandle h;
                 IntPtr ptr;
                 int x__size;
-                
+
                 //combine every array in pieces into one array and return it
                 int __a_b__f = pieces.Sum((__a_b__c)=>__a_b__c.Length);
                 int __a_b__e=0;
@@ -107,7 +109,7 @@ float64 weight"; }
                 Random rand = new Random();
                 int strlength;
                 byte[] strbuf, myByte;
-                
+
             }
 
             public override bool Equals(RosMessage ____other)
@@ -137,7 +139,7 @@ float64 weight"; }
 
             public Response()
             {
-                
+
             }
 
             public Response(byte[] serializedMessage)
@@ -150,7 +152,7 @@ float64 weight"; }
                 Deserialize(serializedMessage, ref currentIndex);
             }
 
-	
+
 
             public override void Deserialize(byte[] serializedMessage, ref int currentIndex)
             {
@@ -160,7 +162,7 @@ float64 weight"; }
                 byte[] thischunk, scratch1, scratch2;
                 IntPtr h;
                 object __thing;
-                
+
                 //weight
                 piecesize = Marshal.SizeOf(typeof(double));
                 h = IntPtr.Zero;
@@ -184,7 +186,7 @@ float64 weight"; }
                 GCHandle h;
                 IntPtr ptr;
                 int x__size;
-                
+
                 //weight
                 scratch1 = new byte[Marshal.SizeOf(typeof(double))];
                 h = GCHandle.Alloc(scratch1, GCHandleType.Pinned);
@@ -209,7 +211,7 @@ float64 weight"; }
                 Random rand = new Random();
                 int strlength;
                 byte[] strbuf, myByte;
-                
+
                 //weight
                 weight = (rand.Next() + rand.NextDouble());
             }
