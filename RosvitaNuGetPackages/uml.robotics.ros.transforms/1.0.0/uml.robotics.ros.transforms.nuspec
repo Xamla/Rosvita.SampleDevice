@@ -9,10 +9,10 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
-        <dependency id="Uml.Robotics.Ros" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Uml.Robotics.Ros" version="1.0.1" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETCoreApp2.1">
-        <dependency id="Uml.Robotics.Ros" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Uml.Robotics.Ros" version="1.0.1" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

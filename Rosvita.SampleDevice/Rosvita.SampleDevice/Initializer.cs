@@ -3,6 +3,7 @@ using Rosvita.RosMonitor;
 using System.Reflection;
 using Xamla.Graph;
 using Microsoft.Extensions.DependencyInjection;
+using Uml.Robotics.Ros;
 
 [assembly: GraphRuntimeInitializer(typeof(Rosvita.SampleDevice.Initializer))]
 
@@ -13,6 +14,8 @@ namespace Rosvita.SampleDevice
     {
         public void Initialize(IGraphRuntime runtime)
         {
+            ROS.RegisterMessageAssembly(Assembly.GetCallingAssembly());
+
             runtime.ModuleFactory.RegisterAllModules(Assembly.GetExecutingAssembly());
 
             StaticModules.Init(

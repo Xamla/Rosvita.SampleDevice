@@ -9,7 +9,7 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.1">
-        <dependency id="Uml.Robotics.Ros.MessageBase" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Uml.Robotics.Ros.MessageBase" version="1.0.1" exclude="Build,Analyzers" />
         <dependency id="Uml.Robotics.Ros.Messages" version="1.0.0" exclude="Build,Analyzers" />
         <dependency id="System.Collections" version="4.3.0" exclude="Build,Analyzers" />
         <dependency id="System.Diagnostics.Debug" version="4.3.0" exclude="Build,Analyzers" />
