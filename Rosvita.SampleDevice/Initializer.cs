@@ -14,7 +14,7 @@ namespace Rosvita.SampleDevice
     {
         public void Initialize(IGraphRuntime runtime)
         {
-            ROS.RegisterMessageAssembly(Assembly.GetCallingAssembly());
+            ROS.RegisterMessageAssembly(Assembly.GetExecutingAssembly());
 
             runtime.ModuleFactory.RegisterAllModules(Assembly.GetExecutingAssembly());
 
