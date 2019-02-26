@@ -42,7 +42,7 @@ namespace Rosvita.SampleDevice
 
                 if (device.EnableSystemMonitoring)
                 {
-                    context.SysMonElements.Add(new SystemMonitorNode { Name = device.Name, Timeout = 2.0 / Math.Max(device.Rate, 0.25), Type = SystemMonitorNodeType.Heartbeat });
+                    context.SysMonElements.Add(new SystemMonitorNode { Name = device.Name, Timeout = Math.Max(2.0, 2.0 / device.Rate), Type = SystemMonitorNodeType.Heartbeat });
                 }
 
                 messages.AddInfo(this, $"Launch file'{project.MakeRelative(launchFilePath)}' written.");

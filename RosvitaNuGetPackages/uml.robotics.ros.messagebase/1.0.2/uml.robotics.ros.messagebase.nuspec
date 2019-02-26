@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Uml.Robotics.Ros.MessageBase</id>
+    <version>1.0.2</version>
+    <authors>ROS.net Contributors</authors>
+    <owners>ROS.net Contributors</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/xamla/ROS.NET</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/Icon.png</iconUrl>
+    <description>This package contains the the message base assembly which contains base clases for ROS messages, sevices and actions. Every assembly that contains ROS message types for ROS.NET must reference the MessageBase assembly.</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.2">
+        <dependency id="Microsoft.Extensions.DependencyModel" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Collections" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.IO.FileSystem.Primitives" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Extensions" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Handles" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Microsoft.Extensions.DependencyModel" version="2.1.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Console" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Logging.Debug" version="2.1.1" exclude="Build,Analyzers" />
+        <dependency id="System.Collections" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Diagnostics.Debug" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.IO.FileSystem.Primitives" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Extensions" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Handles" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.InteropServices" version="4.3.0" exclude="Build,Analyzers" />
+        <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

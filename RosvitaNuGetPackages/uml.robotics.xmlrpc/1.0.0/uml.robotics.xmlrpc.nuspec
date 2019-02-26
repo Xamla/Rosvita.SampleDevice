@@ -3,10 +3,13 @@
   <metadata>
     <id>Uml.Robotics.XmlRpc</id>
     <version>1.0.0</version>
-    <authors>Uml.Robotics.XmlRpc</authors>
-    <owners>Uml.Robotics.XmlRpc</owners>
+    <authors>ROS.net Contributors</authors>
+    <owners>ROS.net Contributors</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package Description</description>
+    <licenseUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/xamla/ROS.NET</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/Icon.png</iconUrl>
+    <description>XML RPC server and client implementation for ROS.NET</description>
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="Microsoft.Extensions.Logging" version="2.1.1" exclude="Build,Analyzers" />

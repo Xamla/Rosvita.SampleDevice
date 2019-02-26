@@ -9,8 +9,8 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.1">
-        <dependency id="Xamla.Types" version="1.0.0" exclude="Build,Analyzers" />
-        <dependency id="Xamla.Utilities" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Types" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Utilities" version="1.0.3" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

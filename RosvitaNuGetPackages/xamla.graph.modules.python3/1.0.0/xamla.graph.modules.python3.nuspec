@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamla.Graph.Modules.Python3</id>
+    <version>1.0.0</version>
+    <authors>Xamla.Graph.Modules.Python3</authors>
+    <owners>Xamla.Graph.Modules.Python3</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Xamla.Graph.Contracts" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Graph.Core" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Graph.Python3Runtime" version="1.0.0" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Robotics.Types" version="1.0.35" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Types" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Utilities" version="1.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

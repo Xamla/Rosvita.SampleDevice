@@ -9,9 +9,9 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.1">
-        <dependency id="Rosvita.Project.Contracts" version="1.0.0" exclude="Build,Analyzers" />
-        <dependency id="Xamla.Robotics.Types" version="1.0.0" exclude="Build,Analyzers" />
-        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="Rosvita.Project.Contracts" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Robotics.Types" version="1.0.35" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.1" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

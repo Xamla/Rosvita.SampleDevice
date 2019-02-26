@@ -3,16 +3,13 @@
   <metadata>
     <id>Uml.Robotics.Ros.Messages</id>
     <version>1.0.0</version>
-    <authors>ROS.net Contributors</authors>
-    <owners>ROS.net Contributors</owners>
+    <authors>Uml.Robotics.Ros.Messages</authors>
+    <owners>Uml.Robotics.Ros.Messages</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <licenseUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/xamla/ROS.NET</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/Icon.png</iconUrl>
-    <description>Standard .NET ROS classes with serializer and deserializer</description>
+    <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
-        <dependency id="Uml.Robotics.Ros.MessageBase" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Uml.Robotics.Ros.MessageBase" version="1.0.2" exclude="Build,Analyzers" />
         <dependency id="System.Collections" version="4.3.0" exclude="Build,Analyzers" />
         <dependency id="System.Diagnostics.Debug" version="4.3.0" exclude="Build,Analyzers" />
         <dependency id="System.IO.FileSystem.Primitives" version="4.3.0" exclude="Build,Analyzers" />
@@ -21,7 +18,7 @@
         <dependency id="System.Runtime.InteropServices" version="4.3.0" exclude="Build,Analyzers" />
       </group>
       <group targetFramework=".NETCoreApp2.1">
-        <dependency id="Uml.Robotics.Ros.MessageBase" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Uml.Robotics.Ros.MessageBase" version="1.0.2" exclude="Build,Analyzers" />
         <dependency id="System.Collections" version="4.3.0" exclude="Build,Analyzers" />
         <dependency id="System.Diagnostics.Debug" version="4.3.0" exclude="Build,Analyzers" />
         <dependency id="System.IO.FileSystem.Primitives" version="4.3.0" exclude="Build,Analyzers" />

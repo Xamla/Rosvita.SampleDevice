@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>Xamla.Graph.Modules.Skia</id>
+    <version>1.0.0</version>
+    <authors>Xamla.Graph.Modules.Skia</authors>
+    <owners>Xamla.Graph.Modules.Skia</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETCoreApp2.1">
+        <dependency id="Xamla.Graph.Contracts" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Graph.Core" version="1.0.1" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Types" version="1.0.2" exclude="Build,Analyzers" />
+        <dependency id="SkiaSharp" version="1.60.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

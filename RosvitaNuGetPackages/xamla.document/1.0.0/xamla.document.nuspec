@@ -9,8 +9,8 @@
     <description>Package Description</description>
     <dependencies>
       <group targetFramework=".NETCoreApp2.1">
-        <dependency id="Xamla.Utilities" version="1.0.0" exclude="Build,Analyzers" />
-        <dependency id="Newtonsoft.Json" version="11.0.2" exclude="Build,Analyzers" />
+        <dependency id="Xamla.Utilities" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="12.0.1" exclude="Build,Analyzers" />
         <dependency id="System.Collections.Immutable" version="1.5.0" exclude="Build,Analyzers" />
       </group>
     </dependencies>

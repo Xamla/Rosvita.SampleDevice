@@ -3,10 +3,13 @@
   <metadata>
     <id>Uml.Robotics.Ros.MessageBase</id>
     <version>1.0.1</version>
-    <authors>Uml.Robotics.Ros.MessageBase</authors>
-    <owners>Uml.Robotics.Ros.MessageBase</owners>
+    <authors>ROS.net Contributors</authors>
+    <owners>ROS.net Contributors</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Package Description</description>
+    <licenseUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/xamla/ROS.NET</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/Xamla/ROS.NET/master/Icon.png</iconUrl>
+    <description>This package contains the the message base assembly which contains base clases for ROS messages, sevices and actions. Every assembly that contains ROS message types for ROS.NET must reference the MessageBase assembly.</description>
     <dependencies>
       <group targetFramework=".NETFramework4.6.2">
         <dependency id="Microsoft.Extensions.DependencyModel" version="2.1.0" exclude="Build,Analyzers" />
