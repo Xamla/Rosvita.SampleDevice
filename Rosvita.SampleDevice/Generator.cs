@@ -28,6 +28,7 @@ namespace Rosvita.SampleDevice
             var deviceConfigurations = configuration.Where(x => x.ConfigurationType == Configuration.ConfigurationType)
                 .OfType<IStandardComponent>()
                 .Select(x => (Configuration)x.GetConfiguration())
+                .Where(x => x.Enabled)
                 .ToList();
 
             foreach (var device in deviceConfigurations)
